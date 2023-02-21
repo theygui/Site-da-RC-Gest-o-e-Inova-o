@@ -1,0 +1,482 @@
+body {
+    box-sizing: border-box;
+    background-color: wheat;
+}
+
+header {
+    background: burlywood;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#img1 {
+    cursor: pointer;
+    width: 20%;
+}
+
+.nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.nav li {
+    display: inline;
+} 
+
+.nav a { 
+    color: #f26e23;
+    padding: 16px 14px;
+    text-decoration: none;
+    transition: all 0.1s;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #19144a;
+    color: #f26e23;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+}
+
+main {  
+   filter: saturate(100%); 
+}
+
+.principal {
+    background-color: white;
+    margin: auto 0;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.principal1 {
+    background-color: wheat;
+    margin: auto 0;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img2 {
+    box-shadow: 40px 40px 0px #112c50;
+    filter: saturate(150%);
+}
+
+#h1 {
+    color: #f26e23;
+    font-size: 4.37rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 497px;
+    text-align: left;
+    line-height: 1em;
+    padding-bottom: 50px;      
+}
+
+#p1 {
+    font-size: 1.25rem;
+    color: #112c50;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.59em;
+    width: 497px;
+}
+
+.principal2 {
+    background-color: #112c50;
+    margin: auto 0;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.img3 {
+    box-shadow: 40px 40px 0px #f26e23;
+    filter: saturate(150%);
+   
+}
+
+#h2 {
+    color: #f26e23;
+    font-size: 4.37rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 500px;
+    text-align: left;
+    line-height: 1em;
+    padding-bottom: 80px;
+         
+}
+
+#p2 {
+    font-size: 1.25rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.59em;
+    width: 497px;
+}
+
+.principal3 {
+    background-image: url(imagens/gestao.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+#h3 {
+    color: white;
+    font-size: 3.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1em;
+    width: 39%;
+}
+
+.titulo {
+    list-style-type: disc;
+    color: #f26e23;
+    font-size: 1.37rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 20px 0;
+}   
+
+.texto3 {
+    width: 40%;
+}
+
+.principal4 {
+    background-image: url(imagens/fundo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+#h4 {
+    color: white;
+    font-size: 3.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1em;
+    width: 28%;
+}
+
+h2 {
+    color: #f26e23;
+    font-size: 1.37rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}   
+
+#p4 {
+    font-size: 1.12rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.59em;
+}
+
+.texto4 {
+    width: 40%;
+}
+
+.principal5 {
+    background-image: url(imagens/fundo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px 0;
+}
+
+#h5 {
+    color: white;
+    font-size: 3.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1em;
+    width: 40%;
+}
+
+h2 {
+    color: #f26e23;
+    font-size: 1.37rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1em;
+    padding: 40px 0;
+    vertical-align: top;
+    text-transform: uppercase;
+}   
+
+#p5 {
+    font-size: 1.12rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.59em;
+}
+
+.texto5 {
+    width: 40%;
+}
+
+footer {
+    background-image: url(imagens/Rodape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+ }
+
+.rodape {
+    display: flex;
+    text-align: center;
+    padding-left: 25%;
+    margin: 0 auto;
+    position: relative;
+    right: 30px;
+}
+
+.link {
+    width:20%
+}
+
+.imgrod {
+    padding: 10px 0;
+}
+
+.endereço {
+    font-size: 1.12rem;
+    color: #ef6602;
+    font-weight: bold;
+    width: 25%;
+    padding-top: 65px;
+    padding-left: 40px;
+}
+
+#redes {
+    font-size: 1.25rem;
+    color: #ef6602;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-right: 0px;
+}
+
+.imgredes {
+    width: 30%;
+    padding-top: 25px;
+}
+
+.imgrod3 {
+    padding-left: 10px;
+}
+
+#email {
+    color: #ef6602;
+    font-size: 0.94rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#rodape {
+    color: #ef6602;
+    font-size: 0.81rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+}
+
+.rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10%;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        width: 100%;
+    }
+    .principal {
+        align-items: center;
+        width: 100%;
+    }
+    .principal1 {
+        align-items: center;
+        width: 100%;
+    }
+    .principal2 {
+        align-items: center;
+        width: 100%;
+    }
+    .principal3 {
+        align-items: center;
+        width: 100%;
+    }
+    .principal4 {
+        align-items: center;
+        width: 100%;
+    }
+    .principal5 {
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    .principal {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 80px;
+    }
+    .principal1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 80px;
+    }
+    .principal2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 80px;
+    }
+    .principal3 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 80px;
+    }
+    .principal4 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .principal5 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    header {
+        width: 125%;
+    }
+    .principal {
+        width: 125%;        
+    }
+    .principal1 {
+        width: 125%;
+    }
+    .principal2 {
+        width: 125%;
+    }
+    .principal3 {
+        width: 125%;
+    }
+    .principal4 {
+        width: 125%;
+    }
+    .principal5 {
+        width: 125%;
+    }
+    footer {
+        width: 125%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 1708px;
+    }
+    .caixa {
+        width: 800px;
+    }
+    .principal {
+        width: 1708px;
+        gap: 80px;
+    }
+    .principal1 {
+        width: 1708px;
+        gap: 80px;
+    }
+    .principal2 {
+        width: 1708px;
+        gap: 80px;
+    }
+    .principal3 {
+        width: 1708px;
+        gap: 80px;
+    }
+    .principal4 {
+        width: 1708px;
+        gap: 80px;
+    }
+    .principal5 {
+        width: 1708px;
+        gap: 80px;
+    }
+    footer {
+        width: 1708px;
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        width: 950px;
+    }
+    .principal {
+        width: 950px;
+    }
+    .principal1 {
+        width: 950px;
+    }
+    .principal2 {
+        width: 950px;
+    }
+    .principal3 {
+        width: 950px;
+    }
+    .principal4 {
+        width: 950px;
+    }
+    .principal5 {
+        width: 950px;
+    }
+    footer {
+        width: 950px;
+    }
+}

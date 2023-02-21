@@ -1,0 +1,199 @@
+body {
+    background-color: wheat;
+}
+
+header {
+    background: burlywood;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#img1 {
+    width: 20%;
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.nav li {
+    display: inline;
+} 
+
+.nav a { 
+    color: #f26e23;
+    padding: 16px 14px;
+    text-decoration: none;
+    transition: all 0.1s;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #19144a;
+    color: #f26e23;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+}
+
+.começo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.12rem;
+    font-weight: bold;
+    color: #19144a;
+    background-color: darkorange;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.começo1 {
+    padding: 20px 0;
+}
+
+#começo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.94rem;
+    font-weight: bold;
+    color: #19144a;
+}
+
+.começo a {
+    text-decoration: none;
+    color: #19144a;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px 0;
+    height: auto;
+}
+
+footer {
+    background-image: url(imagens/Rodape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+ }
+
+.rodape {
+    display: flex;
+    text-align: center;
+    padding-left: 25%;
+    margin: 0 auto;
+    position: relative;
+    right: 30px;
+}
+
+.link {
+    width:20%
+}
+
+.imgrod {
+    padding: 10px 0;
+}
+
+.endereço {
+    font-size: 1.12rem;
+    color: #ef6602;
+    font-weight: bold;
+    width: 25%;
+    padding-top: 65px;
+    padding-left: 40px;
+}
+
+#redes {
+    font-size: 1.25rem;
+    color: #ef6602;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-right: 0px;
+}
+
+.imgredes {
+    width: 30%;
+    padding-top: 25px;
+}
+
+.imgrod3 {
+    padding-left: 10px;
+}
+
+#email {
+    color: #ef6602;
+    font-size: 0.94rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#rodape {
+    color: #ef6602;
+    font-size: 0.81rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+@media screen and (max-width:943px) {
+    header {
+        width: 125%;
+    }
+    .começo {
+        width: 125%;
+    }
+    .imagens {
+        width: 125%;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 0;
+    }
+    footer {
+        width: 125%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header {
+        width: 780px;
+    }
+    .caixa {
+        width: 750px;
+    }
+    .começo {
+        width: 780px;
+    }
+    .imagens {
+        width: 780px;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 0;
+    }
+    footer {
+        width: 780px;
+    }
+}
